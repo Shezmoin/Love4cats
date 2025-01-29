@@ -355,7 +355,7 @@ width: 33%;
     float: right;
   }
 
-  /*This styling below is for form on page 4*/
+  /*This is old styling below is for form on page 4
 
  #formid {
   display: flex;
@@ -407,3 +407,78 @@ padding: 0px;
     border: 20px;
     padding: 40px;
   }
+
+  This is old styling below is for form on page 4*/
+
+  /*This is the css styling for the new form*/
+
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #555555;
+}
+
+input, select, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+*/
+
+
+/* General media query for all screen sizes
+@media (max-width: 1200px) {
+    .form-container {
+        max-width: 70%;
+    }
+}
+General media query for all screen sizes */
