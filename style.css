@@ -356,6 +356,12 @@ width: 33%;
     float: right;
   }
 
+  /*This is styling on page 3*/
+
+  #videos {
+align-items: center;
+  }
+
   /*This is old styling below is for form on page 4*/
 
  #formid {
