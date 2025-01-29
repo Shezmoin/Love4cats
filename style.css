@@ -251,6 +251,7 @@ p {
 
 .social {
   text-align: center;
+  text-decoration: none;
   margin-top: 50px;
   color: saddlebrown;
 }
@@ -403,7 +404,7 @@ padding: 0px;
   #formcat {
     height: 450px;
     width: 400px;
-    justify-content: center;
+    justify-content: left;
     border: 20px;
     padding: 40px;
   }
