@@ -1,138 +1,61 @@
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Love 4 Cats</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love 4 Cats - Register</title>
     <script src="https://kit.fontawesome.com/827d4c4411.js" crossorigin="anonymous"></script>
-    <link href="style.css" rel="stylesheet" type="text/css">
-  </head>
-
-  <body>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
     <header>
-     
-      <a href="index.html">
-      <h1 id="logo4">Sponsor / Foster / Adopt</h1>
-      </a>
-      </header>
+<!-- Side navigation -->
+<div class="sidenav">
+  <!--Shezad Moin - new logo added -->
 
-    <nav>
-        <div id="menu-list">
-        <span class="menu">
-        <a class="active" href="index.html"><b>Home</b></a>
-        </span>
-        <span></span>
-        <span class="menu">
-        <a href="page2.html"><b>Why love cats?</b></a>
-        </span>
-        <span></span>
-        <span class="menu">
-        <a href="page3.html"><b>Gallery & Videos</b></a>
-        </span>
-        <span></span>
-        <span class="menu">
-        <a href="form.html"><b>Register</b></a>
-        </span>
-        </div>  
-    </nav>
-    
-<!--This is the secondry form
-    
-    <div class="form-container">
-      <h1>Adopt a Cat</h1>
-      <form action="/submit" method="POST">
-          <label for="name">Your Name:</label>
-          <input type="text" id="name" name="name" required>
+ <a href="index.html"> <img src="/images/Logo_Love4Cats.png" alt="Love 4 Cats" width="100px" height="100px"> </a>
+ <a href="index.html">Home</a>
+ <a href="page2.html">Why love cats</a>
+ <a href="page3.html">Gallery & Videos</a>
+ <a href="form.html">Register</a>
+</div>
+</header>
 
-          <label for="email">Email Address:</label>
-          <input type="email" id="email" name="email" required>
+<!-- Page content -->
+<div class="main">    
 
-          <label for="phone">Phone Number:</label>
-          <input type="tel" id="phone" name="phone" required>
+  <section id="form-container">
+    <h2>Register</h2>
+    <form action="thankyou.html" method="POST">
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="fname" required>
 
-          <label for="cat">Choose a Cat:</label>
-          <select id="cat" name="cat" required>
-              <option value="">--Please choose a cat--</option>
-              <option value="tabby">Tabby</option>
-              <option value="siamese">Siamese</option>
-              <option value="persian">Persian</option>
-              <option value="maine_coon">Maine Coon</option>
-              <option value="sphynx">Sphynx</option>
-          </select>
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname" name="lname" required>
 
-          <label for="message">Why do you want to adopt a cat?</label>
-          <textarea id="message" name="message" rows="4" required></textarea>
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
 
-          <button type="submit">Submit</button>
-      </form>
-  </div>
-  -->
+      <label for="sfa">What would you like to do?</label>
+      <select id="sfa" name="sfa" required>
+        <option value="Sponsor">Sponsor</option>
+        <option value="Foster">Foster</option>
+        <option value="Adopt">Adopt</option>
+      </select>
 
+      <label for="message">Special Instructions:</label>
+      <textarea id="message" name="message" rows="4"></textarea>
 
-<!---->
-<section id="formid">
-<div>
-<box class="formspace">
-<form id="formcontent" action="index.html" method="get">
+      <button type="submit">Submit</button>
+      
+    </form>
+  </section>
 
-<h2>Register:</h2>
-
-
-  <fieldset>
-
-  <legend><span class="number">1</span> Your Basic Information</legend>
-
-<label for="fname" >First Name:</label>
-<input type="text" name="fname" placeholder="Write your first name">
-
-<br>
-
-<label for="lname" >Last Name:</label>
-<input type="text" name="lname" placeholder="Write your last name">
-
-<br>
-
-<label for="email" >E-mail Address:</label>
-<input type="text" name="email" placeholder="Write your e-mail address">
-
-</fieldset>
-
-<fieldset>
-
-  <br>
-
-  <legend><span class="number">2</span> What would you like to do?</legend>
-
-
-Sponsor: <input type="radio" name="sfa" value="Sponsor">
-Foster: <input type="radio" name="sfa" value="Foster">
-Adopt: <input type="radio" name="sfa" value="Adopt">
-
-</fieldset>
-<br>
-<textarea name="spacial-instructions" placeholder="Write a message with any special instructions"></textarea>
-<input type="submit" name="submit" value="Submit">
-<button type="submit" name="submit">Submit</button>
-                
-</form>
-
-
-        
-</box>
-
-
-</box class="formpicspace">
-        <img id="formcat" src="images/formcat.jpg" alt="cat pic on form page">
-
-</box>
-    </div>
-</section>
-
-<footer class="social">
-    <a href="www.facebook.com" target="_blank">Facebook <i class="fa-brands fa-facebook"></i></a>
-    <a href="www.wikipedia.com" target="_blank">Wikipedia <i class="fa-brands fa-wikipedia-w"></i></a>
-    <a href="www.twitter.com" target="_blank">Twitter <i class="fa-brands fa-twitter"></i></a>
-    <a href="www.instagram.com" target="_blank">Instagram <i class="fa-brands fa-instagram"></i></a>
-    
-  </footer>
-  </body>
+    <footer class="social">
+        <a href="https://www.facebook.com" target="_blank">Facebook <i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.wikipedia.org" target="_blank">Wikipedia <i class="fa-brands fa-wikipedia-w"></i></a>
+        <a href="https://www.twitter.com" target="_blank">Twitter <i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com" target="_blank">Instagram <i class="fa-brands fa-instagram"></i></a>
+    </footer>
+</body>
 </html>

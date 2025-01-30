@@ -1,184 +1,213 @@
 <!DOCTYPE html>
 <html>
   
-<head>
+<head> <!--Start of head-->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Love 4 Cats</title>
   <script src="https://kit.fontawesome.com/827d4c4411.js" crossorigin="anonymous"></script>
   <link href="style.css" rel="stylesheet" type="text/css">
-</head>
   
+  <style>
+    /* Shehzad Moin - added media query for basic responsive styling */
+    @media screen and (max-width: 768px) {
+      .sidenav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .sidenav a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+      }
+      #hero-image img {
+        width: 100%;
+        height: auto;
+      }
+      .test, .test1, .test2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      #locations span {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+</head> <!--End of head-->
 
-<body>
+<body> <!--Start of body-->
   <header>
-    <div class="container">
-      <a href="index.html">
-        <h1 id="logo">Love 4 Cats</h1>
-      </a>
+    <header> 
+      <div class="container">
+        </a>
+      </div>
+    </header>
+
+
+<!-- Shehzad Moin -  Sidebar navigation -->
+<div class="sidenav">
+  <!--Shehzad Moin - Adding a logo here-->
+  <a href="index.html"> <img src="/images/Logo_Love4Cats.png" alt="Love 4 Cats" width="100px" height="100px"> </a>
+  <a href="index.html">Home</a>
+  <a href="page2.html">Why love cats</a>
+  <a href="page3.html">Gallery & Videos</a>
+  <a href="form.html">Register</a>
+</div>
+
+<!-- Page content -->
+<div class="main">
+  <section id="hero-outer">
+    <div id="hero-image">
+    <img src="images/hero2.jpg" alt="cute cat image" height="850px" width="1700px">
     </div>
-  </header>
+  </section>
+  
     
-  <nav>
-      <div id="menu-list">
-      <span class="menu">
-      <a class="active" href="index.html"><b>Home</b></a>
-      </span>
-      <span></span>
-      <span class="menu">
-      <a href="page2.html"><b>Why love cats?</b></a>
-      </span>
-      <span></span>
-      <span class="menu">
-      <a href="page3.html"><b>Gallery & Videos</b></a>
-      </span>
-      <span></span>
-      <span class="menu">
-      <a href="form.html"><b>Register</b></a>
-      </span>
-      </div>  
-  </nav>
+  <section id="quote1">
+  <p>As a charitable organization, our ability to continue caring for cats and kittens depends entirely on the generosity and kindness of public donations.</p>
+  </section>
   
-
-<section id="hero-outer">
-  <div id="hero-image">
-  <img src="images/hero2.jpg" alt="cute cat image" height="850px" width="1700px">
-  </div>
-</section>
-
+  <br>
+  <section id="additional">
+    <h2 id="services">Services we offer</h2>
   
-<section id="quote1">
-<p>As a charitable organization, our ability to continue caring for cats and kittens depends entirely on the generosity and kindness of public donations.</p>
-</section>
-
-  
-<br>
-<section id="additional">
-  
-<h2 id="services">Services we offer</h2>
-
-  
-<div id="left">
+    
+  <div id="left">
     <div class="left-line">
       <h2 class="name-of-service">Promoting cat safety <i class="fa-solid fa-shield-cat"></i></h2>
-<hr>
-  <p class="paragraphs">Promoting cat safety involves creating awareness about potential hazards in the environment and encouraging responsible pet ownership. By advocating for cat safety measures such as identification tags, microchipping, and safe outdoor spaces, we strive to ensure a secure and nurturing environment for our feline companions.</p>
-</div>
-
-<h2 class="name-of-service">Catsafe Education <i class="fa-solid fa-book-open"></i></h2>
-<hr>
-  <p class="paragraphs">Educating on cat safety involves teaching pet owners about potential dangers, proper nutrition, and providing a secure environment for their feline friends. Through educational initiatives, we aim to empower cat owners with the knowledge and skills needed to enhance the safety and well-being of their beloved cats.</p>
-</div>
-    
-</div>
-
-
-
-    
-<div id="right">
-  <div class="right-line">
-  <h2 class="name-of-service">Grief and loss <i class="fa-solid fa-heart-crack"></i></h2>
   <hr>
-    <p class="paragraphs">In times of sorrow, whether coping with the loss of your cat, facing challenging decisions like euthanasia, dealing with a missing pet, or seeking emotional support, we are here to provide understanding and assistance. Recognizing the deep bond between you and your cat, we offer a range of resources and support.</p>
-</div>
-
-  <h2 class="name-of-service">Cat Guardians <i class="fa-solid fa-eye"></i></h2>
+    <p class="paragraphs">Promoting cat safety involves creating awareness about potential hazards in the environment and encouraging responsible pet ownership. By advocating for cat safety measures such as identification tags, microchipping, and safe outdoor spaces, we strive to ensure a secure and nurturing environment for our feline companions.</p>
+  </div>
+  
+  <h2 class="name-of-service">Catsafe Education <i class="fa-solid fa-book-open"></i></h2>
   <hr>
-    <p class="paragraphs">Our Cat Guardians service ensures continuous care for your cat with a dedicated cuddle-giver, behind-the-ear-scratcher, and food provider, even in the event of your passing. Ensure your feline friend's happiness by planning for their well-being, considering what would happen to them if something were to happen to you.</p>
-</div>
-
+    <p class="paragraphs">Educating on cat safety involves teaching pet owners about potential dangers, proper nutrition, and providing a secure environment for their feline friends. Through educational initiatives, we aim to empower cat owners with the knowledge and skills needed to enhance the safety and well-being of their beloved cats.</p>
+  </div>
       
-<div>
-  <div id="center">
-     <div id="circle-container">
-      <div>
-        <img id="circle" src="images/topcircle.jpg" alt="circle picture">
+  </div>
+  </section>
+  
+  
+      
+  <div id="right">
+    <div class="right-line">
+    <h2 class="name-of-service">Grief and loss <i class="fa-solid fa-heart-crack"></i></h2>
+    <hr>
+      <p class="paragraphs">In times of sorrow, whether coping with the loss of your cat, facing challenging decisions like euthanasia, dealing with a missing pet, or seeking emotional support, we are here to provide understanding and assistance. Recognizing the deep bond between you and your cat, we offer a range of resources and support.</p>
+  </div>
+  
+    <h2 class="name-of-service">Cat Guardians <i class="fa-solid fa-eye"></i></h2>
+    <hr>
+      <p class="paragraphs">Our Cat Guardians service ensures continuous care for your cat with a dedicated cuddle-giver, behind-the-ear-scratcher, and food provider, even in the event of your passing. Ensure your feline friend's happiness by planning for their well-being, considering what would happen to them if something were to happen to you.</p>
+  </div>
+  
+        
+  <div>
+    <div id="center">
+       <div id="circle-container">
+        <div>
+          <img id="circle" src="images/topcircle.jpg" alt="circle picture">
+        </div>
       </div>
     </div>
   </div>
-</div>
-  
-</section>
-
-  <!--This is the begining of the second tier on the home page with 2 circles and one div with text-->
-
-  <section id="testing">
-    <div class="test">
-      <div id="left-circle">
-        <div id="left-circle-detail">
-          <div>
-            <div>
-              <img id="left-circle-image" src="images/leftcircle.jpg" alt="left circle picture" height="300px" width="300px">
-            </div>
-          </div>
-        </div>
-    </div>
-    </div>
-
-
-    <div class="test1">
-      <div id="center2">
-        <div class="middle-line">
-        <h2 class="name-of-service">Understanding Behaviour <i class="fa-solid fa-cat"></i></h2>
-        <hr>
-          <p class="paragraphs">Discover the intricacies of your cat's communication by exploring our comprehensive guides on feline behavior, covering topics such as interpreting body language, recognizing signs of stress, understanding reasons behind hiding, and addressing spraying behaviors.</p>
-      </div>
     
-        <hr>
-        <hr>
-        <h2 class="name-of-service">Fostering Lifeline <i class="fa-solid fa-heart-pulse"></i></h2>
-        
-          <p class="paragraphs">Providing a confidential and complimentary fostering service, we ensure the well-being of cats from families escaping domestic abuse, offering assurance that their feline companions will be cared for until a safe reunion is possible.</p>
-      </div>
-    
-    </div>
-    <div class="test2">
-
-      <div id=right-circle>
-        <div id="right-circle-detail">
-           <div>
-            <div>
-              <img id="right-circle-image" src="images/rightcircle3.jpg" alt="right circle picture" height="300px" width="300px">
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
   </section>
-
-   <!--This is the begining of the second tier on the home page with 2 circles and one div with text-->
-
-
-
-
-<section>
-    <div class="centers">
-  <h3>Our centers</h3>
-    </div>
+  
+    <!--This is the begining of the second tier on the home page with 2 circles and one div with text-->
+  
+    <section id="testing">
+      <div class="test">
+        <div id="left-circle">
+          <div id="left-circle-detail">
+            <div>
+              <div>
+                <img id="left-circle-image" src="images/leftcircle.jpg" alt="left circle picture" height="300px" width="300px">
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+  
+  
+      <div class="test1">
+        <div id="center2">
+          <div class="middle-line">
+          <h2 class="name-of-service">Understanding Behaviour <i class="fa-solid fa-cat"></i></h2>
+          <hr>
+            <p class="paragraphs">Discover the intricacies of your cat's communication by exploring our comprehensive guides on feline behavior, covering topics such as interpreting body language, recognizing signs of stress, understanding reasons behind hiding, and addressing spraying behaviors.</p>
+        </div>
       
-    <div id="locations">
-    <span><b>London</b>  Address:  10 Downing St, SW1A 2AA</span>
-    <span><b>Birmingham</b>  Address:  115 Vyse St, B18 6LP</span>
-    <span><b>Manchester</b>  Address:  Victoria Station, M3 1AR</span>
-    <span><b>Edinburgh</b>  Address: Palace of Holyroodhouse, EH8 8DX</span>
-    <span><b>Cardiff</b>  Address:  Castle St, Cardiff CF10 3RB</span>
-    <span><b>Dublin</b>   Address: 1 Block 1, Blackrock Business Park</span>
-    </div>
-  </section>
-   
-
-
-
-
-<footer class="social">
-  <a href="www.facebook.com" target="_blank">Facebook <i class="fa-brands fa-facebook"></i></a>
-  <a href="www.wikipedia.com" target="_blank">Wikipedia <i class="fa-brands fa-wikipedia-w"></i></a>
-  <a href="www.twitter.com" target="_blank">Twitter <i class="fa-brands fa-twitter"></i></a>
-  <a href="www.instagram.com" target="_blank">Instagram <i class="fa-brands fa-instagram"></i></a>
+          <hr>
+          <hr>
+          <h2 class="name-of-service">Fostering Lifeline <i class="fa-solid fa-heart-pulse"></i></h2>
+          
+            <p class="paragraphs">Providing a confidential and complimentary fostering service, we ensure the well-being of cats from families escaping domestic abuse, offering assurance that their feline companions will be cared for until a safe reunion is possible.</p>
+        </div>
+      
+      </div>
+      <div class="test2">
   
-</footer>
+        <div id=right-circle>
+          <div id="right-circle-detail">
+             <div>
+              <div>
+                <img id="right-circle-image" src="images/rightcircle3.jpg" alt="right circle picture" height="300px" width="300px">
+              </div>
+            </div>
+          </div>
+        </div>
   
+      </div>
+    </section>
+  
+     <!--This is the begining of the second tier on the home page with 2 circles and one div with text-->
+  
+  
+  
+  
+  <section>
+      <div class="centers">
+    <h3>Our centers</h3>
+      </div>
+        
+      <div id="locations">
+      <span><b>London</b>  Address:  10 Downing St, SW1A 2AA</span>
+      <span><b>Birmingham</b>  Address:  115 Vyse St, B18 6LP</span>
+      <span><b>Manchester</b>  Address:  Victoria Station, M3 1AR</span>
+      <span><b>Edinburgh</b>  Address: Palace of Holyroodhouse, EH8 8DX</span>
+      <span><b>Cardiff</b>  Address:  Castle St, Cardiff CF10 3RB</span>
+      <span><b>Dublin</b>   Address: 1 Block 1, Blackrock Business Park</span>
+      <span>
+      <a href="www.facebook.com" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+      <a href="www.wikipedia.com" target="_blank"> <i class="fa-brands fa-wikipedia-w"></i></a>
+      <a href="www.twitter.com" target="_blank"> <i class="fa-brands fa-twitter"></i></a>
+      <a href="www.instagram.com" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+      </span>
+      </div>
+    </section>
+     
+  
+  </div>  
+  
+  <!--
+  <footer class="social">
+    <a href="www.facebook.com" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+    <a href="www.wikipedia.com" target="_blank"> <i class="fa-brands fa-wikipedia-w"></i></a>
+    <a href="www.twitter.com" target="_blank"> <i class="fa-brands fa-twitter"></i></a>
+    <a href="www.instagram.com" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+    
+  </footer>
+  -->
+</div>
+
+
+
 </body>
 
 </html>

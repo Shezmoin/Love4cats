@@ -6,92 +6,140 @@ padding: 0;
 border: 0;
 }
 
-
-head {
+  
+body {
+  background-color: rgb(183, 163, 121);
+  border: 5px solid saddlebrown;
   
 }
 
-body {
-  background-color: rgb(234, 221, 202);
-  border: 5px solid saddlebrown;
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;  
 }
 
-.container {
-  width: 100%;
-  height: 100%;
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: saddlebrown;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* Media Query - On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+/* Styling for the Form */
+#form-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  padding: 20px;
 }
 
-
-#logo,
-#logo2,
-#logo3,
-#logo4 {
-text-align: center;
-text-transform: uppercase;
-margin-top: 50px;
-font-size: 300%;
-letter-spacing: 10px;
-text-decoration: none;
+form {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
 }
 
-/*
-float: left;
-font-size: 300%;
-line-height: 75px;
-text-transform: uppercase;
-*/
+form input, form textarea, form select, form button {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+}  /* End styling for Form*/
 
 
-#menu-list {
+/* Styling for the footer */
+footer {
+  width: 100%;
   text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
 }
 
-.menu {
-  color: saddlebrown;
-  font-family: 'dancing-script', cursive;
-  font-size: 150%;
-  list-style-type: none;
-  letter-spacing: 4px;
+
+/* Styling for the Social media links*/
+.social a {
+  color: #555;
+  font-size: 24px;
+  margin: 0 10px;
   text-decoration: none;
+}
+/* Change color of Social media links on hover*/
+.social a:hover {
+  color: #000;
+}
+
+
+/* General styling of text*/
+#logo,#logo2,#logo3,#logo4 {
+  text-align: center;
   text-transform: uppercase;
-  
-}
-
-
-.menu li {
- /*
-  float: right;
-  margin-right: 225px;
-  */
-  text-transform: uppercase; 
-
-}
-
-.menu a {
+  margin-top: 50px;
+  font-size: 300%;
+  letter-spacing: 10px;
   text-decoration: none;
-  color: saddlebrown;
-  margin: 100px;
-}
-
-.menu {
-  line-height: 75px;
-}
-
-.menu a:hover {
-  border-bottom: 2px solid;
-}
-
-
+  }
+  
 h1 {
   font-family: 'pacifico', cursive;
   color: saddlebrown;
   text-transform: uppercase; 
 }
 
+h3 {
+  font-family: 'dancing-script', cursive;
+  color: saddlebrown;
+  text-transform: uppercase;
+  /*text-align: center;*/ 
+  /*this affects the main page centers heading*/
+  margin-top: 50px;
+}
+
+p {
+  color: saddlebrown;
+  padding: 0px;
+  margin: 0px;
+}
+
+.paragraphs {
+  font-family: 'dancing-script', cursive;
+  color: saddlebrown;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+
+/* CSS for Homepage image & zooming*/
 #hero-image {
   height: 2016px;
   width: 1016px;
@@ -116,6 +164,8 @@ h1 {
   }        
 }
 
+
+/* Main text on homepage */
 #quote1 {
   font-family: 'dancing-script', cursive;
   text-transform: uppercase;
@@ -125,14 +175,6 @@ h1 {
   margin-top: 50px;
 }
 
-h3 {
-  font-family: 'dancing-script', cursive;
-  color: saddlebrown;
-  text-transform: uppercase;
-  /*text-align: center;*/ 
-  /*this affects the main page centers heading*/
-  margin-top: 50px;
-}
 
 #additional {
   height: 600px
@@ -145,46 +187,6 @@ h3 {
   font-family: 'dancing-script', cursive;
   color: saddlebrown;
   text-transform: uppercase;
-}
-
-#left {
-  padding-top: 30px;
-  width: 33%;
-  float: left;
-
-}
-
-#right {
-  padding-top: 30px;
-  width: 33%;
-  float: right;
-  
-}
-
-#center {
-  padding-top: 50px;
-  width: 33%
-  margin: 0 auto; 
-}
-
-.left-line {
-  width: 100%;
-  float: right;
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 50px;
-}
-
-.right-line {
-  width: 100%;
-  float: left;
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 50px;
-}
-
-hr {
-  margin-bottom: 10px;
 }
 
 .name-of-service {
@@ -211,19 +213,12 @@ hr {
     width: 300px;
   }
 
-
-.paragraphs {
-  font-family: 'dancing-script', cursive;
-  color: saddlebrown;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 1px;
-}
-
 .centers {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 20px;
+  background-color: #000000;
+  color: saddlebrown;
 }
 
 #locations {
@@ -231,262 +226,51 @@ hr {
   color: saddlebrown;
   text-transform: uppercase;
   text-align: center;
-  display: flex;
+  display:flex;
   gap: 200px;
   justify-content: center;
- 
-  
-}
-
-p {
-  color: saddlebrown;
-  padding: 0px;
-  margin: 0px;
+  background-color: #000000;
 }
 
 
-
-
-
-
-.social {
-  text-align: center;
-  text-decoration: none;
-  margin-top: 50px;
-  color: saddlebrown;
+/* Margins */
+#left {
+  padding-top: 30px;
+  width: 33%;
+  float: left;
 }
 
-/*This section is for testing purposes*/
+#right {
+  padding-top: 30px;
+  width: 33%;
+  float: right;
+}
 
-  #testing {
-    border: 2px; solid; red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+#center {
+  padding-top: 50px;
+  width: 33%;
+  margin: 0 auto; 
+}
 
-  .test {
-
-height: auto;
-width: 33%;
-  }
-
-  .test1 {
-  
-    height: auto;
-width: 33%;
-  }
-
-  .test2 {
-  
-    height: auto;
-width: 33%;
-  }
-
-/*Below is second tier styling
- 
-
-  #left-circle {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-
-
-  }
-
-  #right-circle {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-
-  }
-
-  .middle-line {
-    
-    width: 33%
-    text-align: center;
-  }
-*/
-
-  
-  #left-circle-detail {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: saddlebrown;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-  }
-
-  #left-circle-image {
-    border-radius: 50%;
-    height: 300px;
-    width: 300px;
-  }
-
-  #right-circle-detail {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: saddlebrown;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-  }
-
-  #right-circle-image {
-    border-radius: 50%;
-    height: 300px;
-    width: 300px;
-  }
-
-
-
-
-  /*styling of images on second page*/
-
-  #cat2 {
-    float: right;
-  }
-
-  #cat3 {
-    float: right;
-  }
-
-  /*This is styling on page 3*/
-
-  #videos {
-
-padding: 10;
-  }
-
-  /*This is old styling below is for form on page 4*/
-
- #formid {
-  display: flex;
+.left-line {
   width: 100%;
-  justify-content: center;
- }
+  float: right;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+}
 
-
-  input {
+.right-line {
   width: 100%;
-  }
-
-  textarea {
-    resize: vertical;
-    max-height: 100px;
-  }
-
-  input, textarea {
-    outline: none;
-    border: 1px solid saddlebrown;
-  }
-
-.formspace {
-    border: 0px;
-    margin: 0px;
-    padding: 0px;
-    width: 50%;
-    justify-content: center;
+  float: left;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
 }
 
-.formpicspace {
-  border: 0px;
-  margin: 0px;
-  padding:0px;
-  width: 50%;
+hr {
+  margin-bottom: 10px;
 }
 
-#formcontent {
-height: auto;
-width: 0%  
-border: 0px;
-padding: 0px;
-}
-
-  #formcat {
-    height: 450px;
-    width: 400px;
-    justify-content: center;
-    border: 20px;
-    padding: 40px;
-  }
-
-  /*This is old styling below is for form on page 4*/
-
-  /*This is the css styling for the new form
 
 
-  body {
-    font-family: Arial, sans-serif;
-    background-color: saddlebrown;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.form-container {
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 100%;
-    max-width: 400px;
-}
-
-h1 {
-    text-align: center;
-    color: #333333;
-}
-
-label {
-    display: block;
-    margin-top: 15px;
-    font-weight: bold;
-    color: #555555;
-}
-
-input, select, textarea, button {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #cccccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-textarea {
-    resize: vertical;
-}
-
-button {
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-    margin-top: 20px;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-*/
-
-
-/* General media query for all screen sizes
-@media (max-width: 1200px) {
-    .form-container {
-        max-width: 70%;
-    }
-}
-General media query for all screen sizes */
