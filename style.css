@@ -376,14 +376,3 @@ hr {
   padding-left: 20px;
   padding-bottom: 50px;
 }
-
-#box {
-  width: 320px;
-  height: 80px;
-  padding: 20px;
-  padding-top: 30px;
-  padding-bottom: 50px;
-  border: 5px solid rgb(183, 181, 181);
-  background-color: #1e1b1b;
-  margin: 50px;
-}
