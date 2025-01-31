@@ -1,61 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Love 4 Cats - Register</title>
-    <script src="https://kit.fontawesome.com/827d4c4411.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love 4 Cats - Register</title>
+  <script src="https://kit.fontawesome.com/827d4c4411.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+
+   <!--Shehzad Moin - Inserting a background image -->
+   <style>
+    body {
+      background-image: url(../images/1_background.jpg);
+      background-repeat: no-repeat;          /* To make sure image is not repeated multiple times */
+      background-attachment: fixed;          /* Image stays in place and doesn't scroll */
+      background-size: cover;                /* 'Cover' option means it covers the full background */
+    }
+    </style>
+    
 </head>
+
 <body>
-    <header>
-<!-- Side navigation -->
-<div class="sidenav">
-  <!--Shezad Moin - new logo added -->
+  <header>
+    <!-- Shehzad Moin -  Sidebar navigation -->
+    <div class="sidenav">
+      <!--Shehzad Moin - Adding a logo here-->
+      <a href="index.html"> <img src="/images/Logo_Love4Cats.png" alt="Love 4 Cats" width="100px" height="100px"> </a>
+      <a href="index.html">Home</a> 
+      <a href="servicesweoffer.html">Services we offer</a>
+      <a href="whylovecats.html">Why love cats</a>
+      <a href="gallery.html">Gallery & Videos</a>
+      <a style="color: #e1bebe" , href="form.html">Register</a>    <!-- adding a style to fix color of text on each page-->
+    </div>
+  </header>
 
- <a href="index.html"> <img src="/images/Logo_Love4Cats.png" alt="Love 4 Cats" width="100px" height="100px"> </a>
- <a href="index.html">Home</a>
- <a href="page2.html">Why love cats</a>
- <a href="page3.html">Gallery & Videos</a>
- <a href="form.html">Register</a>
-</div>
-</header>
+  <!-- Page content -->
+  <div class="main">
 
-<!-- Page content -->
-<div class="main">    
-
-  <section id="form-container">
-    <h2>Register</h2>
-    <form action="thankyou.html" method="get">
-      <label for="fname">First Name:</label>
-      <input type="text" id="fname" name="fname" required>
-
-      <label for="lname">Last Name:</label>
-      <input type="text" id="lname" name="lname" required>
-
-      <label for="email">Email Address:</label>
-      <input type="email" id="email" name="email" required>
-
-      <label for="sfa">What would you like to do?</label>
-      <select id="sfa" name="sfa" required>
-        <option value="Sponsor">Sponsor</option>
-        <option value="Foster">Foster</option>
-        <option value="Adopt">Adopt</option>
-      </select>
-
-      <label for="message">Special Instructions:</label>
-      <textarea id="message" name="message" rows="4"></textarea>
-
-      <button type="submit">Submit</button>
+    <section id="form-container">
+      <h3>Register</h3>
+      <br>
       
-    </form>
-  </section>
+      <form action="thankyou.html" method="get">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required>
 
-    <footer class="social">
-        <a href="https://www.facebook.com" target="_blank">Facebook <i class="fa-brands fa-facebook"></i></a>
-        <a href="https://www.wikipedia.org" target="_blank">Wikipedia <i class="fa-brands fa-wikipedia-w"></i></a>
-        <a href="https://www.twitter.com" target="_blank">Twitter <i class="fa-brands fa-twitter"></i></a>
-        <a href="https://www.instagram.com" target="_blank">Instagram <i class="fa-brands fa-instagram"></i></a>
-    </footer>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="sfa">What would you like to do?</label>
+        <select id="sfa" name="sfa" required>
+          <option value="Sponsor">Sponsor</option>
+          <option value="Foster">Foster</option>
+          <option value="Adopt">Adopt</option>
+        </select>
+
+        <label for="message">Special Instructions:</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <button type="submit">Submit</button>
+
+      </form>
+    </section>
+  </div>  
 </body>
+
+
+<!--Footer-->
+<footer class="social">
+  <div class="centers">
+    <h3>Our centers</h3>
+
+    <!--Locations of the centers-->
+    <div id="locations">
+      <span><b>London</b> Address: 10 Downing St, SW1A 2AA</span>
+      <span><b>Birmingham</b> Address: 115 Vyse St, B18 6LP</span>
+      <span><b>Manchester</b> Address: Victoria Station, M3 1AR</span>
+      <span><b>Edinburgh</b> Address: Palace of Holyroodhouse, EH8 8DX</span>
+      <span><b>Dublin</b> Address: 1 Block 1, Blackrock Business Park</span>
+    </div>
+
+    <!--Social Media links-->
+    <span>
+      <a href="www.facebook.com" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+      <a href="www.wikipedia.com" target="_blank"> <i class="fa-brands fa-wikipedia-w"></i></a>
+      <a href="www.twitter.com" target="_blank"> <i class="fa-brands fa-twitter"></i></a>
+      <a href="www.instagram.com" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+    </span>
+
+    <!--Copyright notice-->
+    <span>
+      <p><br>copyright ShezadMoin@2025</p>
+    </span>
+  </div>
+</footer>
+
 </html>
