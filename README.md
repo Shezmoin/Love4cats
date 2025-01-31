@@ -1,6 +1,6 @@
 # Love 4 Cats
 
-![Shown on a variety of screen sizes](/images/Logo_Love4Cats.png)
+![Shown on a variety of screen sizes](./assets/images/logo.png)
 
 Visit the deployed site: [Love4Cats](https://shezmoin.github.io/Love4cats/index.html)
 
@@ -10,9 +10,7 @@ A place for cat lovers to connect, learn, and celebrate our feline friends! Whet
 or a community that shares your passion, you've found your purr-fect home. 
 
 
-
-
-Table of Contents
+## Table of Contents
 
 ●	Project Overview
 ●	Features
@@ -26,12 +24,12 @@ Table of Contents
 ●	Media Used
 
 
-Project Overview
+## Project Overview
 
 The Love 4 Cats website is designed to provide cat enthusiasts with a platform to explore various cat-related content. The website includes sections for cat care, adoption, galleries, and community engagement.
 
 
-Features
+## Features
 
 ●	Home Page: A welcoming page with a beautiful banner and introduction.
 ●	About Us: Information about the purpose of the website.
@@ -41,26 +39,26 @@ Features
 ●	Responsive Design: Mobile-friendly layout using HTML and CSS.
 
 
-Technologies Used
+## Technologies Used
 
 ●	HTML5: Structure and content of the website.
 ●	CSS3: Styling and layout enhancements.
 ●	JavaScript (Optional): Can be added for interactive elements.
 
 
-Typography
+## Typography
 
 The website uses 'dancing-script', cursive as the primary font, ensuring readability and a clean, modern look. Text elements such as headers and paragraphs are well-spaced to enhance the user experience.
 
 
-Design and Color Scheme
+## Design and Color Scheme
 
 ●	Primary Colors: Soft pastel colors and warm tones to reflect the friendly and comforting nature of cats.
 ●	Background: A fixed, full-screen background image that enhances the site's aesthetic appeal.
 ●	Navigation: The sidebar features a dark background with light-colored text for contrast and easy navigation.
 
 
-Features
+## Features
 
 ●	Responsive Design: The site is set to adapt to different screen sizes 
 ●	Sidebar Navigation: Easy access to various sections of the website.
@@ -69,14 +67,14 @@ Features
 ●	Social Media Integration: Links to Facebook, Twitter, Instagram, and Wikipedia for expanded engagement.
 
 
-Accessibility
+## Accessibility
 
 ●	Color Contrast: Ensures readability for users with visual impairments.
 ●	Alt Text: Added to images for screen readers and visually impaired users.
 ●	Keyboard Navigation: Navigation links and forms are accessible via keyboard input.
 
 
-Testing
+## Testing
 
 The website has been tested on multiple devices and browsers to ensure compatibility and responsiveness:
 ●	Browsers Tested: Chrome, Firefox, Edge
@@ -84,7 +82,7 @@ The website has been tested on multiple devices and browsers to ensure compatibi
 ●	Validation Tools Used: HTML and CSS validators to check for errors and accessibility compliance.
 
 
-Media Used
+## Media Used
 
 ●	Images: Background image and cat-related images sourced from royalty-free platforms.
 ●	Videos: Embedded or linked from reputable sources such as YouTube or user-submitted content.
@@ -94,7 +92,7 @@ Credits
 ●	External Libraries: FontAwesome Kit for social media icons
 
 
-Usage
+## Usage
 
 ●	Open the index.html file in a browser to view the website.
 ●	Navigate through different sections using the menu.
@@ -102,7 +100,7 @@ Usage
 ●	Use the contact form to send messages.
 
 
-File Structure
+## File Structure
 
 Love4Cats/
 │-- index.html
@@ -120,7 +118,7 @@ Love4Cats/
 ●	assets/: Contains images, CSS.
 
 
-Contact
+## Contact
 
 For any inquiries, feel free to reach out:
 ●	Email: contact@love4cats.com
