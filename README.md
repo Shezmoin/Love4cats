@@ -109,6 +109,9 @@ Responsive Design: Mobile-friendly layout using HTML and CSS.
 
 
 ## Wireframes:
+![Desktop](./assets/images/Wireframe Desktop.jpeg)
+
+
 ### Testing:
 Testing results:
 W3C Markup Validation Service - To validate HTML and CSS code to check for errors and accessibility compliance
