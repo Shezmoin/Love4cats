@@ -110,13 +110,26 @@ Responsive Design: Mobile-friendly layout using HTML and CSS.
 
 ## Wireframes:
 
+Desktop:
+
+![Desktop](./assets/images/wireframedesktop.jpeg)
+
+Mobile:
+
+![Mobile](./assets/images/wireframemobile.jpeg)
+
+
 
 
 
 ### Testing:
-Testing results:
+
+   Testing results:
+     
 W3C Markup Validation Service - To validate HTML and CSS code to check for errors and accessibility compliance
+
 Browsers Tested: Chrome, Firefox, Edge
+
 Devices Tested: Desktop & Mobile
 
 
@@ -124,44 +137,69 @@ Devices Tested: Desktop & Mobile
 
 
 ### Errors:
+
 #### Index.html
 
+![Index](./assets/images/indexerrors.png)
 
 #### Servicesweoffer.html:
 
+![servicesweoffer](./assets/images/servicesweoffererrors1.png)
 
 #### Whylovecats.html
 
+![whylovecats](./assets/images/welovecatserror1.png)
 
 #### Gallery.html
 
-![Desktop](./assets/images/galleryerrors.png)
+![gallery](./assets/images/galleryerrors.png)
 
 
 ### form.html
 
+![form](./assets/images/formerrors1.png)
+
 
 ### Validators Results :
+
 #### Index.html
+
+![index](./assets/images/indexnoerrors.png)
 
 #### servicesweoffer.html
 
+![servicesweoffer](./assets/images/servicesweoffernoerrors.png)
 
 
 #### whylovecats.html
 
+![whylovecats](./assets/images/whylovecatsnoerrors.png)
+
+
 #### gallery.html
 
+![gallery](./assets/images/gallerynoerrors.png)
 
 
 #### form.html
 
+![form](./assets/images/formnoerrors.png)
+
+
 #### thankyou.html
 
+![thankyou](./assets/images/thnakyounoerrors.png)
 
 #### style.css
 
+![style](./assets/images/cssnoerrors.png)
+
 ### Pagespeed Results:
+
+![desktop](./assets/images/Pagespeeddesktop.png)
+
+![Mobile](./assets/images/pagespeedmobile.jpeg)
+
 
 # User Stories
 
@@ -227,7 +265,7 @@ This project was initially created using the Code Institute template from GitHub
 
 * Started using Github, moved to VS Code and final development on GitPod
 
-* To push the project from VS Code (via GitPod) to GitHub, I used the following Git commands in the terminal:
+To push the project from VS Code (via GitPod) to GitHub, I used the following Git commands in the terminal:
 
 * git status – Checks the status of the repository to identify any modified or untracked files.
 
@@ -268,7 +306,7 @@ And to the main teacher at the City of Bristol College.
 
 For any inquiries, feel free to reach out:
 
-Email: contact@love4cats.com
+Email: shezmoin@hotmail.com
 
 Website: Love 4 Cats
 
