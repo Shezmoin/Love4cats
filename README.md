@@ -198,8 +198,6 @@ Devices Tested: Desktop & Mobile
 
 ![desktop](./assets/images/Pagespeeddesktop.png)
 
-![Mobile](./assets/images/pagespeedmobile.jpeg)
-
 
 # User Stories
 
