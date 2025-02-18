@@ -111,6 +111,7 @@ Responsive Design: Mobile-friendly layout using HTML and CSS.
 ## Wireframes:
 ![Desktop](./assets/images/Wireframe Desktop.jpeg)
 
+![desktoptry](assets/images/Wireframe Desktop.jpeg)
 
 ### Testing:
 Testing results:
